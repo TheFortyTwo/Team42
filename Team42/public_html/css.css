@@ -15,7 +15,9 @@ body{
 #iphone{
     width: 328px; /* 40pc of iPhone11 res */
     height: 716px;
-    padding: 0 auto;
+    padding-top: 20px;
     margin: 0 auto;
     background-color: white;
+    border-radius: 20px;
+    border: 3px gray;
 }
