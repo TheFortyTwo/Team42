@@ -9,8 +9,8 @@ and open the template in the editor.
 */
 
 #iphone{
-    width: 83px;
-    height: 179px;
+    width: 328px; /* 40pc of iPhone11 res */
+    height: 716px;
     padding: 0 auto;
     margin: 0 auto;
     background-color: blue;
