@@ -12,12 +12,30 @@ body{
     background-color: gainsboro;
 }
 
-#iphone{
+.screen{
     width: 328px; /* 40pc of iPhone11 res */
-    height: 716px;
-    padding-top: 20px;
-    margin: 0 auto;
+    padding: 8px;
+    margin: 0px auto;
     background-color: white;
-    border-radius: 20px;
     border: 3px gray;
+}
+
+#iphone{
+    height: 648px; /* 716 - 56 - 12*/
+}
+
+#iphone-top{
+    height: 56px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+#iphone-bottom{
+    padding: 0px 8px 0px 8px;
+    height: 6px;
+    border-radius: 0px 0px 12px 12px;
+    background-color: green;
+}
+
+#demo{
+    margin-top: 30px;
 }
