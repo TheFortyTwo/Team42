@@ -8,10 +8,14 @@ and open the template in the editor.
     Author     : Tomousee
 */
 
+body{
+    background-color: gainsboro;
+}
+
 #iphone{
     width: 328px; /* 40pc of iPhone11 res */
     height: 716px;
     padding: 0 auto;
     margin: 0 auto;
-    background-color: blue;
+    background-color: white;
 }
